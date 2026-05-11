@@ -1,0 +1,30 @@
+# Build directories
+build/
+build_release/
+bin/
+obj/
+
+# IDE files
+.vscode/
+.idea/
+.vs/
+.cache/
+*.swp
+*.swo
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# Compiled binaries
+*.a
+*.o
+
+# Offline Tiles
+tiles/*
+!tiles/README.md
