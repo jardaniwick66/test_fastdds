@@ -27,6 +27,16 @@ A simple C++ Publisher/Subscriber application using **eProsima Fast DDS**. This 
 - **CMake**: Version 3.16 or higher.
 - **C++ Compiler**: Supporting C++17.
 
+### Fast DDS Compilation Note for macOS
+
+If you are compiling the **Fast DDS library itself** from source on macOS, you may encounter numerous warnings or errors related to nullability. It is recommended to add the following flags to the Fast DDS `CMakeLists.txt` or pass them during configuration:
+
+```cmake
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wno-nonnull -Wpedantic -Wextra -Wno-unknown-pragmas -Wno-error=deprecated-declarations")
+```
+
+The `-Wno-nonnull` flag is particularly essential on macOS to handle system header compatibility issues during the Fast DDS build process.
+
 ## Building and Cleaning
 
 ### Build
