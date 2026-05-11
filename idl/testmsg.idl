@@ -1,0 +1,5 @@
+struct TestMsg
+{
+    unsigned long index;
+    string message;
+};

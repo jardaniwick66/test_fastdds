@@ -1,0 +1,4 @@
+/Users/boatgtr/c-workspace/test_fastdds/build/CMakeFiles/publisher.dir
+/Users/boatgtr/c-workspace/test_fastdds/build/CMakeFiles/subscriber.dir
+/Users/boatgtr/c-workspace/test_fastdds/build/CMakeFiles/edit_cache.dir
+/Users/boatgtr/c-workspace/test_fastdds/build/CMakeFiles/rebuild_cache.dir
