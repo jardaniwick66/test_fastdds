@@ -1,6 +1,4 @@
 #include <iostream>
-#include <chrono>
-#include <thread>
 #include <atomic>
 
 #include <fastdds/dds/domain/DomainParticipantFactory.hpp>
