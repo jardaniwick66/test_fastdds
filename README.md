@@ -71,3 +71,9 @@ cd idl
 
 ### IDE Support
 This project exports `compile_commands.json` to the root directory. Most modern IDEs (VS Code, CLion, etc.) will use this file to provide accurate IntelliSense and autocomplete for Fast DDS types.
+
+## Tested On
+This project has been tested on:
+- **OS**: macOS 26.3 (Architecture: arm64)
+- **Compiler**: Apple Clang 21.0.0
+- **Fast DDS Version**: 3.6.1 (Installed in `~/Fast-DDS/install`)
